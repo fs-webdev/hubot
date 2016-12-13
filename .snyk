@@ -1,0 +1,8 @@
+version: v1.5.0
+ignore: {}
+patch:
+  'npm:negotiator:20160616':
+    - hubot > express > connect > compression > accepts > negotiator:
+        patched: '2016-12-13T18:17:35.663Z'
+    - hubot > express > connect > serve-index > accepts > negotiator:
+        patched: '2016-12-13T18:17:35.663Z'
